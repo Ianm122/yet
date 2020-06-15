@@ -3,96 +3,105 @@
 	src: url("lsb.otf");
 }
 
-/* make a table display */
-body {
-	/* border: 4px solid ;  #ff914d */
-}		
-
-
-		ul  {	
-			
-			color: 	#ffbd59;
-			font-size: 167%;
-			text-align: left;
-			line-height: 1.9em;
-			list-style-type: none;
-			float: left;
-			margin: 5% 0% 1% 0%;
-						
-			}	
+	#allcontent {	width: 950px;
+				margin-left: auto;
+				margin-right: auto;
+			}
 		
-		li  {  	font-family: "League Spartan Bold";
-			display: inline;
-			margin: 0% 0% 0% 15%;
+			
+		ul  {
+			width: 150px;
+			color: #ffbd59;
+			float: left;
+			font-size: 140%;
+			margin-top: 50px;
+			margin-left: 50px;
+			font-weight: bolder;
+			font-family: "League Spartan Bold";
+			
+			
+			}
+
+		a {
+			color: #ffbd59;
+			text-decoration: none;
+			}		
+		
+		#contact {      width: 450px;
+				background: #5e17eb;
+				}
+		
+		@media screen and (max-width: 480px) {
+				
+			#p1 {  width: 230px;
+			       height: 91px;
+				}
+
+			#p2 {  width: 230px;
+			       height: 91px;
+				}
+
+			#p3 {  width: 230px;
+			       height: 91px;
+				}
+			
+			#p4 {  width: 230px;
+			       height: 91px;
+				}
+
 			} 
 
-		#logo {
+			
+
+		@media screen and (min-width: 481px) and (max-width: 739px) {
+ 
+
+		}
 		
-			margin: 0% 6% -5% -3%;
-			height: 45%;
-			width:  45%;
-			float: right;
+		@media screen and (min-width: 740px) and (max-width: 947px) {
+
+
+			#p1 {  width: 360px;
+			       height: 142px;
+				}
+
+			#p2 {  width: 360px;
+			       height: 142px;
+				}
+
+			#p3 {  width: 360px;
+			       height: 142px;
 				}
 			
-		h1    {
-			color: 	#ffbd59;
-			font-size: 300%;
-			text-align: center;
-			line-height: 1.9em;
-			margin: 30px;
-			
-						
-			}
-		
-		p    {  margin-bottom: -8%;
-		}
-		p.p1 {  margin-left:120px;
-			
-		}
-
-		p.p2 {  margin-left: 650px;
-					
+			#p4 {  width: 360px;
+			       height: 142px;
+				}
 			}
 
-		p.p3 {  margin-left: 120px;
+		@media screen and (min-width: 948px) and (max-width: 1130px)  {
+
+			#allcontent {	width: 950px;
+				margin-left: auto;
+				margin-right: auto;
 				
-			}
-
-		p.p4 {  margin-left: 650px;
-		margin-bottom: 1px;
-			}
-
-		#navwhoweare  {
-				margin-bottom: 7%;
 					}
+			
 				
 
-		#navclasses {
-			margin-bottom: 7%;
-			margin-right: 0%;
-				}
-		
-		#contact_us {
-			margin-bottom: 7%;
-				}	
+		@media screen and (min-width: 1131px) {
 
-		#contact {
-			margin-top: 3%;
-			font-size: 200%;
-			line-height: 2.0em;
-			color: #ffbd59;
-			background: #5e17eb;
-				}
-		a  {
-			color: #ffbd59;
+			#allcontent {	width: 950px;
+				margin-left: auto;
+				margin-right: auto;
+				
+					}
 			}
 
-		a:selected {
-			color: #5e17eb;
-			}
-		
 			
+				
 			
 		
 	
-/* #ffd4b4 - pink text #5e17eb - violet  #ffbd59- orange  #ffd4bf-org/pnk */
+/* notes: break points < 480px /  481px - 743px  / 744 - 930px / < 931px
+
+ #ffd4b4 - pink text #5e17eb - violet  #ffbd59- orange  #ffd4bf-org/pnk */
