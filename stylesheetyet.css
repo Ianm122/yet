@@ -3,13 +3,21 @@
 	src: url("lsb.otf");
 }
 
-	#allcontent {	width: 950px;
-				margin-left: auto;
-				margin-right: auto;
-			}
-		
-			
-		ul  {
+body {
+	margin: 0 10%;
+}
+
+.bubble {
+
+	width: 49%;
+	display: inline-block;
+}
+
+.bubble img {
+		width: 100%;
+}
+
+ul  {
 			width: 150px;
 			color: #ffbd59;
 			float: left;
@@ -31,7 +39,7 @@
 				background: #5e17eb;
 				}
 		
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 968px) {
 				
 			#p1 {  width: 230px;
 			       height: 91px;
@@ -48,8 +56,11 @@
 			#p4 {  width: 230px;
 			       height: 91px;
 				}
+			.bubble {
+				width: 100%;
+			}
 
-			} 
+		} 
 
 			
 
@@ -80,9 +91,6 @@
 
 		@media screen and (min-width: 948px) and (max-width: 1130px)  {
 
-			#allcontent {	width: 950px;
-				margin-left: auto;
-				margin-right: auto;
 				
 					}
 			
@@ -90,12 +98,8 @@
 
 		@media screen and (min-width: 1131px) {
 
-			#allcontent {	width: 950px;
-				margin-left: auto;
-				margin-right: auto;
-				
-					}
-			}
+						
+								}
 
 			
 				
